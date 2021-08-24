@@ -5,8 +5,9 @@ namespace OlaMundo
     class Program
     {        static void Main(string[] args)
        {     Console.BackgroundColor = ConsoleColor.Green;
-             Console.WriteLine("Ola Mundo!!!");  
-            Console.BackgroundColor = ConsoleColor.Yellow;
+       Console.ForegroundColor = ConsoleColor.Black;
+             Console.Write("Ola Mundo!!!");  
+            Console.BackgroundColor = ConsoleColor.Green;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("Shalom!!!!");
              Console.BackgroundColor = ConsoleColor.Red;
